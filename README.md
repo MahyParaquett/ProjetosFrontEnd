@@ -1,2 +1,2 @@
 # ProjetosFrontEnd
-Exercícios da matéria FrntEnd Essencial.
+Exercícios da matéria FrontEnd Essencial.
