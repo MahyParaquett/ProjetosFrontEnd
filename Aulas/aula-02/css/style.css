@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap");
+
+h1 {
+  color: rgb(154, 5, 69);
+}
+p {
+  /*Cor*/
+  color: rgba(107, 99, 255, 0.74);
+  /*Tamanho*/
+  font-size: 56px;
+  /*Estilo*/
+  font-style: italic;
+  /*Negrito*/
+  font-weight: bold;
+  /*Fontes possiveis que ele vai exibir*/
+  font-family: "Fuggles", cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
