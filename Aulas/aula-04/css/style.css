@@ -1,0 +1,44 @@
+/*Colocando imagem*/
+body {
+  /*colocar na tela toda, vh--> viewport hight*/
+  height: 100vh;
+
+  /*Puxar a imagem*/
+  background-image: url("../img/bg.jpg");
+
+  /*Não ter repetição*/
+  background-repeat: no-repeat;
+
+  /*comportamento da img na tela, cover-->tenta cobrir toda a área do body*/
+  /*conten--> fica contido no tamanho da imagem*/
+  background-size: cover;
+
+  /*a posição de referencia que ele usa pra se posicionar*/
+  background-position: right bottom;
+
+  /*para que a imagem não se mexa caso aumente ou diminua a tela*/
+  background-attachment: fixed;
+}
+h1 {
+  color: chocolate;
+  font-size: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+/*classe para centralizar os elementos no body*/
+.container {
+  width: 80%;
+  height: 100%;
+  background-color: aliceblue;
+  margin: auto;
+  padding: 64px;
+}
+p {
+  font-size: 21px;
+}
+
+img {
+  width: 200px;
+  float: left;
+}
