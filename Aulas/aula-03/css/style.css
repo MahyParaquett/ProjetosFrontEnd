@@ -1,0 +1,50 @@
+h1 {
+  color: rgb(42, 165, 114);
+}
+
+span {
+  color: rgb(149, 111, 178);
+}
+
+header {
+  border: 3px solid #000;
+  background-color: rgb(192, 219, 210);
+  height: 200px;
+  width: 500px;
+}
+
+header h1 {
+  background-color: black;
+  margin: 0;
+}
+
+.navbar {
+  background: rgb(193, 180, 164);
+  width: 100px;
+}
+.navbar ul {
+  /*sumir com a bolinha da lista*/
+  list-style-type: none;
+  padding: 0;
+}
+
+/*sumir com o underline do link--> text decoration*/
+/*mudar o comportamento dele para bloco*/
+.navbar ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+}
+
+/*Como combinar classes pro menu identificar o menu que eu to*/
+.navbar ul li a:hover.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/*Quando passa o mouse ele altera*/
+.navbar ul li a:hover {
+  color: black;
+  font-weight: 700px;
+  background-color: crimson;
+}
