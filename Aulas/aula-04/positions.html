@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/positions.css" />
+    <title>Positions</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Positions</h1>
+
+      <!--Ele é statico até chegar no topo da tela, aí ele se torna fixed-->
+      <div class="sticky">
+        <h2>Positions sticky</h2>
+      </div>
+
+      <!--Criada em uma posição e fica no 
+        mesmo lugar e segue o rolar da tela (padrão)-->
+      <div class="box static">
+        <h2>Positions static</h2>
+      </div>
+
+      <!--Crio em posição em relação a ela mesmo mexendo em top,botton,left e right-->
+      <div class="box relative">
+        <h2>Position relative</h2>
+
+        <!--Ele tem uma posição absoluta em relação ao elemento pai, 
+        aqui é o conteiner-->
+        <div class="box absolute">
+          <h2>Position absolute</h2>
+        </div>
+      </div>
+
+      <!--Ele fica fixo independente do scroll da pagina-->
+      <div class="box fixed">
+        <h2>Position fixed</h2>
+      </div>
+    </div>
+  </body>
+</html>
