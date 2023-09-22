@@ -1,0 +1,91 @@
+body {
+  /*colocar na tela toda, vh--> viewport hight*/
+  height: 100vh;
+
+  /*Puxar a imagem*/
+  background-image: url("../img/fundo.jpeg");
+
+  /*Não ter repetição*/
+  background-repeat: no-repeat;
+
+  /*comportamento da img na tela, cover-->tenta cobrir toda a área do body*/
+  /*conten--> fica contido no tamanho da imagem*/
+  background-size: cover;
+
+  /*a posição de referencia que ele usa pra se posicionar*/
+  background-position: right bottom;
+
+  /*para que a imagem não se mexa caso aumente ou diminua a tela*/
+  background-attachment: fixed;
+}
+header {
+  background-color: rgba(177, 179, 179, 0.517);
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  color: chocolate;
+  font-size: 50px;
+  margin: 20px;
+  text-align: center;
+}
+.container {
+  width: 70%;
+  height: 5000px;
+  background-color: aliceblue;
+  margin: auto;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/*sumir com o underline do link--> text decoration*/
+/*mudar o comportamento dele para bloco*/
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/*Quando passa o mouse ele altera*/
+.navbar ul li a:hover {
+  color: black;
+  font-weight: 700px;
+  background-color: crimson;
+}
+img {
+  height: 200px;
+  width: 200px;
+  padding-left: 30px;
+}
+
+.box {
+  display: flex;
+}
+
+h2 {
+  color: chocolate;
+  font-size: 30px;
+  margin-left: 200px;
+  text-align: center;
+}
