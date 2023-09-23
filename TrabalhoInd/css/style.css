@@ -35,10 +35,11 @@ h1 {
   font-size: 50px;
   margin: 20px;
   text-align: center;
+  font-family: "PT Serif", serif, "Fuggles", cursive;
 }
 .container {
   width: 70%;
-  height: 5000px;
+  height: 1100px;
   background-color: aliceblue;
   margin: auto;
   padding: 0;
@@ -76,16 +77,52 @@ h1 {
 img {
   height: 200px;
   width: 200px;
-  padding-left: 30px;
+  padding: 10px;
+}
+p {
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
 }
 
 .box {
   display: flex;
+  align-items: center;
 }
 
 h2 {
   color: chocolate;
   font-size: 30px;
-  margin-left: 200px;
+  margin-left: 144px;
+  margin-top: 50px;
   text-align: center;
+  font-family: "PT Serif", serif, "Fuggles", cursive;
+}
+
+.lista {
+  list-style: circle;
+  margin-left: 50px;
+}
+
+.lista li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.p2 {
+  text-align: justify;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+h3 {
+  color: chocolate;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "PT Serif", serif, "Fuggles", cursive;
 }

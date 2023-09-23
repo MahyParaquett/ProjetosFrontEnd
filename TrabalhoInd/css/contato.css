@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  background-image: url("../img/fundo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+  background-attachment: fixed;
+  margin: 0;
+}
+h1 {
+  color: chocolate;
+  font-size: 80px;
+  margin: 20px;
+  text-align: center;
+  font-family: "Dancing Script", cursive, "Playfair Display", serif, "PT Serif",
+    serif, "Roboto", sans-serif, "Satisfy", cursive;
+}
+.container {
+  width: 100%;
+  height: 70%;
+  background-color: aliceblue;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 0;
+  position: fixed;
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+ul li {
+  margin: 50px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+ul li a:hover {
+  color: rgb(144, 16, 78);
+  font-weight: 700px;
+}

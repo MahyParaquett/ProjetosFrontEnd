@@ -3,82 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS do bootstrapt-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="CSS/reset.css" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="CSS/positions.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fuggles&family=PT+Serif&display=swap");
+    </style>
     <title>Perfil</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <nav class="navbar">
-          <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-      </header>
+      <main>
+        <header>
+          <nav class="navbar">
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="contato.html">Entre em contato aqui!</a></li>
+            </ul>
+          </nav>
+        </header>
 
-      <h1>Bem-Vindo(a) ao meu perfil !</h1>
+        <h1>Bem-Vindo(a) ao meu perfil</h1>
 
-      <!--Criada em uma posição e fica no 
+        <!--Criada em uma posição e fica no 
         mesmo lugar e segue o rolar da tela (padrão)-->
-      <h2>Sobre mim</h2>
-      <div class="box static">
-        <img src="img/perfil.jpg" alt="foto de perfil do usuário" />
-        <p>
-          No início da minha carreira eu ainda tinha muitas dúvidas de onde
-          encontraria meu propósito. Qual segmento atuar de forma engajada, por
-          isso, decidi realizar o que chamo de experimentação, permear por
-          diversas áreas, todas por tempo determinado (por escolha pessoal),
-          para gerar essa oportunidade de aprendizado e escolha de carreira.
+        <h2>Sobre mim</h2>
+        <div class="box static">
+          <img src="img/perfil1.png" alt="foto de perfil do usuário" />
+          <p>
+            No início da minha carreira eu ainda tinha muitas dúvidas de onde
+            encontraria meu propósito. Qual segmento atuar de forma engajada,
+            por isso, decidi realizar o que chamo de experimentação, permear por
+            diversas áreas, todas por tempo determinado (por escolha pessoal),
+            para gerar essa oportunidade de aprendizado e escolha de carreira.
+          </p>
+        </div>
+        <h3>Experiência</h3>
+        <ul class="lista">
+          <li>
+            Logística de materiais, estoques e movimentação de carga, com
+            formação pelo Senai e experiência no centro de distribuição da
+            Sodexo. Neste período, meu projeto final do curso teve destaque na
+            Unidade e fui indicada para participar de uma competição municipal e
+            depois regional ficando em segundo lugar."
+          </li>
+          <li>
+            No Ministério Público participei do processo seletivo e fui aprovada
+            para realizar atividades administrativas com processos judiciais na
+            área criminal, realizando triagem, entradas e saídas de processos,
+            organização e arquivamento de documentos, elaboração de planilhas e
+            coordenação de ofícios e avisos de recebimento.
+          </li>
+          <li>
+            Minha terceira experimentação foi no segmento financeiro, mais
+            especificamente no setor de contas a receber, tive a chance de
+            evoluir muito no inglês, no uso de planilhas, SAP e notas fiscais.
+            Eu tinha muita responsabilidade, e a empresa confiava muito no que
+            era feito por mim, a ponto de me reconhecer e me deixar cobrir
+            férias da minha supervisora. Nesta empresa desenvolvi muito a
+            resiliência, capacidade de resolução de problemas e a
+            adaptabilidade. Com a pandemia do Covid-19 as mudanças me fizeram
+            entender que era o momento de gerar mais uma experimentação.
+          </li>
+          <li>
+            Busquei me especializar na área de moda, um hobby que me fez
+            considerar virar profissão. Realizei vários cursos e rapidamente
+            iniciei uma jornada no segmento e alcancei a posição de Responsável
+            por Visual e Merchandising.
+          </li>
+        </ul>
+
+        <p class="p2">
+          Nesta última experimentação, em contato com atividades de gestão, tive
+          acesso e pude começar a entender o uso dos dados e da tecnologia para
+          o sucesso de um negócio, revivi todo o conteúdo da graduação em
+          Administração e vi na prática o uso da tecnologia para trazer uma
+          experiência diferenciada para o cliente e para a evolução do negócio.
+          Uso das taxas de conversão (através de placas monitoradoras de
+          transação), gestão de dados (KPI, BI), sistema de gestão e estoque
+          (via Bluebird), realidade aumentada, etiquetas de RFID, pagamentos
+          auto assistidos. E foi despertando o engajamento que procurava, de tal
+          forma, que decidi me dedicar ao segmento de tecnologia realizando o
+          curso de Desenvolvedor de Software e desta forma, gerar oportunidade
+          para entrar no segmento que finalmente é o que me gera propósito.
         </p>
-      </div>
-      <ul>
-        <li>
-          <a
-            href="Logística de materiais, estoques e movimentação de carga, com formação pelo Senai e experiência no centro de distribuição da Sodexo. Neste período, meu projeto final do curso teve destaque na Unidade e fui indicada para participar de uma competição municipal e depois regional ficando em segundo lugar."
-          >
-          </a>
-        </li>
-        <li>
-          <a
-            href="No Ministério Público participei do processo seletivo e fui aprovada para realizar atividades administrativas com processos judiciais na área criminal, realizando triagem, entradas e saídas de processos, organização e arquivamento de documentos, elaboração de planilhas e coordenação de ofícios e avisos de recebimento."
-          ></a>
-        </li>
-        <li>
-          <a
-            href="Minha terceira experimentação foi no segmento financeiro,
-          mais especificamente no setor de contas a receber, tive a chance de
-          evoluir muito no inglês, no uso de planilhas, SAP e notas fiscais. Eu
-          tinha muita responsabilidade, e a empresa confiava muito no que era
-          feito por mim, a ponto de me reconhecer e me deixar cobrir férias da
-          minha supervisora. Nesta empresa desenvolvi muito a resiliência,
-          capacidade de resolução de problemas e a adaptabilidade. Com a
-          pandemia do Covid-19 as mudanças me fizeram entender que era o momento
-          de gerar mais uma experimentação."
-          ></a>
-        </li>
-        <li>
-          <a
-            href="Busquei me especializar na área de moda, um hobby que me fez considerar virar profissão. Realizei vários cursos e rapidamente iniciei uma jornada no segmento e alcancei a posição de Responsável por Visual e Merchandising. "
-          ></a>
-        </li>
-      </ul>
-      <p>
-        Nesta última experimentação, em contato com atividades de gestão, tive
-        acesso e pude começar a entender o uso dos dados e da tecnologia para o
-        sucesso de um negócio, revivi todo o conteúdo da graduação em
-        Administração e vi na prática o uso da tecnologia para trazer uma
-        experiência diferenciada para o cliente e para a evolução do negócio.
-        Uso das taxas de conversão (através de placas monitoradoras de
-        transação), gestão de dados (KPI, BI), sistema de gestão e estoque (via
-        Bluebird), realidade aumentada, etiquetas de RFID, pagamentos auto
-        assistidos. E foi despertando o engajamento que procurava, de tal forma,
-        que decidi me dedicar ao segmento de tecnologia realizando o curso de
-        Desenvolvedor de Software e desta forma, gerar oportunidade para entrar
-        no segmento que finalmente é o que me gera propósito.
-      </p>
+      </main>
     </div>
   </body>
 </html>
