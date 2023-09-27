@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  padding-bottom: 500px;
+}
+.bi {
+  font-size: 150px;
+}
+.bi.bi-moon {
+  color: gray;
+}
+.bi.bi-apple {
+  color: red;
+}
+
+.formulario {
+  background-color: blueviolet;
+}
+
+.emailHelper,
+.passwdHelper {
+  display: none;
+  color: red;
+  font-size: 9px;
+  font-style: italic;
+}
